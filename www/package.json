@@ -1,0 +1,33 @@
+{
+  "name": "wasper",
+  "version": "0.1.0",
+  "description": "optimize image and file uploading",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducduyn31/wasper.git"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "author": "Daniel Nguyen <ducduy.ababat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ducduyn31/wasper/issues"
+  },
+  "homepage": "https://github.com/ducduyn31/wasper#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
